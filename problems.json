@@ -19,60 +19,42 @@
     },
     {
         "id": 4,
-        "question": "Create a React component that displays a list of users passed as props.",
-        "sample_io": "Input: users=[\"Alice\", \"Bob\"]\nOutput: <ul><li>Alice</li><li>Bob</li></ul>",
-        "language": "react"
-    },
-    {
-        "id": 5,
         "question": "Write a Python function to return the Fibonacci sequence up to N terms.",
         "sample_io": "Input: N=5\nOutput: [0, 1, 1, 2, 3]",
         "language": "python"
     },
     {
-        "id": 6,
+        "id": 5,
         "question": "Write a Java program to reverse a given integer array.",
         "sample_io": "Input: arr=[1,2,3,4]\nOutput: [4,3,2,1]",
         "language": "java"
     },
     {
-        "id": 7,
-        "question": "Create a simple Node.js HTTP server that responds with 'Hello World'.",
-        "sample_io": "Input: curl localhost:3000\nOutput: Hello World",
-        "language": "nodejs"
-    },
-    {
-        "id": 8,
+        "id": 6,
         "question": "Write a C function to check if a given number is prime.",
         "sample_io": "Input: n=7\nOutput: Prime",
         "language": "c"
     },
     {
-        "id": 9,
+        "id": 7,
         "question": "Write a C++ function to find the maximum element in an array.",
         "sample_io": "Input: arr=[2,4,6,8]\nOutput: 8",
         "language": "cpp"
     },
     {
-        "id": 10,
+        "id": 8,
         "question": "Write a Kotlin function that returns the factorial of a given number.",
         "sample_io": "Input: n=5\nOutput: 120",
         "language": "kotlin"
     },
     {
-        "id": 11,
+        "id": 9,
         "question": "Write a JavaScript function to check if a number is even or odd.",
         "sample_io": "Input: n=9\nOutput: Odd",
         "language": "javascript"
     },
     {
-        "id": 12,
-        "question": "Create a React component that takes a string and displays it in uppercase.",
-        "sample_io": "Input: message=\"hello\"\nOutput: HELLO",
-        "language": "react"
-    },
-    {
-        "id": 13,
+        "id": 10,
         "question": "Write a Python function to check if a given word is an anagram of another.",
         "sample_io": "Input: word1=\"listen\", word2=\"silent\"\nOutput: True",
         "language": "python"
@@ -84,519 +66,1275 @@
         "language": "java"
     },
     {
-        "id": 15,
+        "id": 11,
         "question": "Write a C function to find the sum of digits of a given number.",
         "sample_io": "Input: n=123\nOutput: 6",
         "language": "c"
     },
     {
-        "id": 16,
+        "id": 12,
         "question": "Write a C++ function to sort an array in ascending order.",
         "sample_io": "Input: arr=[3,1,2]\nOutput: [1,2,3]",
         "language": "cpp"
     },
     {
-        "id": 17,
-        "question": "Create a Node.js script to read a file and print its contents.",
-        "sample_io": "Input: file.txt='hello'\nOutput: hello",
-        "language": "nodejs"
-    },
-    {
-        "id": 18,
+        "id": 13,
         "question": "Write a Python function to check if a list contains duplicates.",
         "sample_io": "Input: arr=[1,2,3,1]\nOutput: True",
         "language": "python"
     },
     {
-        "id": 19,
+        "id": 14,
         "question": "Write a JavaScript function to find the longest word in a sentence.",
         "sample_io": "Input: sentence=\"I love JavaScript\"\nOutput: JavaScript",
         "language": "javascript"
     },
     {
-        "id": 20,
+        "id": 15,
         "question": "Write a Kotlin program to reverse a string.",
         "sample_io": "Input: str=\"hello\"\nOutput: olleh",
         "language": "kotlin"
     },
     {
-        "id": 21,
+        "id": 16,
         "question": "Write a C program to find the GCD of two numbers.",
         "sample_io": "Input: a=20, b=8\nOutput: 4",
         "language": "c"
     },
     {
-        "id": 22,
+        "id": 17,
         "question": "Write a Java method to remove all vowels from a string.",
         "sample_io": "Input: str=\"Hello World\"\nOutput: Hll Wrld",
         "language": "java"
     },
     {
-        "id": 23,
-        "question": "Create a React component for a counter with increment and decrement buttons.",
-        "sample_io": "Input: Click increment twice\nOutput: 2",
-        "language": "react"
-    },
-    {
-        "id": 24,
+        "id": 18,
         "question": "Write a Python script to count the frequency of each character in a string.",
         "sample_io": "Input: str=\"aabbc\"\nOutput: {'a':2, 'b':2, 'c':1}",
         "language": "python"
     },
     {
-        "id": 25,
+        "id": 19,
         "question": "Write a JavaScript function to flatten a nested array.",
         "sample_io": "Input: arr=[1, [2, [3]]]\nOutput: [1,2,3]",
         "language": "javascript"
     },
     {
-        "id": 26,
-        "question": "Write a Node.js script to create a directory named 'test'.",
-        "sample_io": "Input: Run script\nOutput: 'test' directory created",
-        "language": "nodejs"
-    },
-    {
-        "id": 27,
+        "id": 20,
         "question": "Write a C++ function to calculate the sum of a vector of integers.",
         "sample_io": "Input: vec=[2,4,6]\nOutput: 12",
         "language": "cpp"
     },
     {
-        "id": 28,
+        "id": 21,
         "question": "Write a Python function to find the second largest number in a list.",
         "sample_io": "Input: arr=[1,3,4,2]\nOutput: 3",
         "language": "python"
     },
     {
-        "id": 29,
+        "id": 22,
         "question": "Write a Java program to print the Fibonacci series up to N numbers.",
         "sample_io": "Input: N=6\nOutput: 0 1 1 2 3 5",
         "language": "java"
     },
     {
-        "id": 30,
-        "question": "Create a React component for a simple login form with username and password.",
-        "sample_io": "Input: Enter username=test, password=123\nOutput: Form submitted",
-        "language": "react"
-    },
-    {
-        "id": 31,
+        "id": 23,
         "question": "Write a JavaScript function to remove duplicates from an array.",
         "sample_io": "Input: arr=[1,2,2,3]\nOutput: [1,2,3]",
         "language": "javascript"
     },
     {
-        "id": 32,
+        "id": 24,
         "question": "Write a C function to reverse an array of integers.",
         "sample_io": "Input: arr=[1,2,3]\nOutput: [3,2,1]",
         "language": "c"
     },
     {
-        "id": 33,
+        "id": 25,
         "question": "Write a Kotlin program to check if a number is an Armstrong number.",
         "sample_io": "Input: n=153\nOutput: True",
         "language": "kotlin"
     },
     {
-        "id": 34,
+        "id": 26,
         "question": "Write a C++ program to swap two numbers without using a third variable.",
         "sample_io": "Input: a=5, b=7\nOutput: a=7, b=5",
         "language": "cpp"
     },
     {
-        "id": 35,
+        "id": 27,
         "question": "Write a Python function to compute the factorial recursively.",
         "sample_io": "Input: n=4\nOutput: 24",
         "language": "python"
     },
     {
-        "id": 36,
+        "id": 28,
         "question": "Write a Java method to check if a year is a leap year.",
         "sample_io": "Input: year=2020\nOutput: True",
         "language": "java"
     },
     {
-        "id": 37,
-        "question": "Write a Node.js script to fetch data from a public API and print it.",
-        "sample_io": "Input: API=https://api.github.com\nOutput: prints JSON",
-        "language": "nodejs"
-    },
-    {
-        "id": 38,
+        "id": 29,
         "question": "Write a Kotlin function to count vowels in a string.",
         "sample_io": "Input: str=\"hello\"\nOutput: 2",
         "language": "kotlin"
     },
     {
-        "id": 39,
+        "id": 30,
         "question": "Write a JavaScript function to capitalize the first letter of each word in a sentence.",
         "sample_io": "Input: sentence=\"hello world\"\nOutput: Hello World",
         "language": "javascript"
     },
     {
-        "id": 40,
+        "id": 31,
         "question": "Write a C program to find the largest element in an array.",
         "sample_io": "Input: arr=[7,3,9,2]\nOutput: 9",
         "language": "c"
     },
     {
-        "id": 41,
+        "id": 32,
         "question": "Write a C++ function to merge two sorted arrays.",
         "sample_io": "Input: arr1=[1,3], arr2=[2,4]\nOutput: [1,2,3,4]",
         "language": "cpp"
     },
     {
-        "id": 42,
-        "question": "Create a React component that toggles between dark and light themes.",
-        "sample_io": "Input: Click toggle\nOutput: Theme changed",
-        "language": "react"
-    },
-    {
-        "id": 43,
+        "id": 33,
         "question": "Write a Java method to count the number of words in a sentence.",
         "sample_io": "Input: sentence=\"Hello world!\"\nOutput: 2",
         "language": "java"
     },
     {
-        "id": 44,
+        "id": 34,
         "question": "Write a Python function to remove all punctuation from a string.",
         "sample_io": "Input: str=\"Hello, world!\"\nOutput: Hello world",
         "language": "python"
     },
     {
-        "id": 45,
-        "question": "Write a Node.js function to check if a file exists.",
-        "sample_io": "Input: filename='test.txt'\nOutput: true/false",
-        "language": "nodejs"
-    },
-    {
-        "id": 46,
+        "id": 35,
         "question": "Write a C program to print a multiplication table for a number n.",
         "sample_io": "Input: n=3\nOutput: 3 6 9 12 15 18 21 24 27 30",
         "language": "c"
     },
     {
-        "id": 47,
+        "id": 36,
         "question": "Write a JavaScript function to sum all numbers in an array.",
         "sample_io": "Input: arr=[1,2,3,4]\nOutput: 10",
         "language": "javascript"
     },
     {
-        "id": 48,
+        "id": 37,
         "question": "Write a Kotlin function to sort an array in descending order.",
         "sample_io": "Input: arr=[3,1,2]\nOutput: [3,2,1]",
         "language": "kotlin"
     },
     {
-        "id": 49,
+        "id": 38,
         "question": "Write a C++ program to check if a number is a palindrome.",
         "sample_io": "Input: n=121\nOutput: True",
         "language": "cpp"
     },
     {
-        "id": 50,
+        "id": 39,
         "question": "Write a Python function to merge two dictionaries.",
         "sample_io": "Input: d1={'a':1}, d2={'b':2}\nOutput: {'a':1, 'b':2}",
         "language": "python"
     },
     {
-        "id": 51,
+        "id": 40,
         "question": "Write a Java method to convert Celsius to Fahrenheit.",
         "sample_io": "Input: C=0\nOutput: 32.0",
         "language": "java"
     },
     {
-        "id": 52,
-        "question": "Create a React component for a to-do list with add and delete features.",
-        "sample_io": "Input: Add 'item1', delete 'item1'\nOutput: List is empty",
-        "language": "react"
-    },
-    {
-        "id": 53,
+        "id": 41,
         "question": "Write a JavaScript function to find the intersection of two arrays.",
         "sample_io": "Input: arr1=[1,2,3], arr2=[2,3,4]\nOutput: [2,3]",
         "language": "javascript"
     },
     {
-        "id": 54,
-        "question": "Write a Node.js function to write data to a file.",
-        "sample_io": "Input: data='hello', filename='test.txt'\nOutput: File written",
-        "language": "nodejs"
-    },
-    {
-        "id": 55,
+        "id": 42,
         "question": "Write a C function to check if a number is a perfect square.",
         "sample_io": "Input: n=16\nOutput: True",
         "language": "c"
     },
     {
-        "id": 56,
+        "id": 43,
         "question": "Write a C++ function to count the number of digits in an integer.",
         "sample_io": "Input: n=12345\nOutput: 5",
         "language": "cpp"
     },
     {
-        "id": 57,
+        "id": 44,
         "question": "Write a Python script to find the common elements in two lists.",
         "sample_io": "Input: l1=[1,2,3], l2=[2,3,4]\nOutput: [2,3]",
         "language": "python"
     },
     {
-        "id": 58,
+        "id": 45,
         "question": "Write a Java method to check if a string contains only digits.",
         "sample_io": "Input: str=\"123\"\nOutput: True",
         "language": "java"
     },
     {
-        "id": 59,
-        "question": "Create a React component to display the current date and time.",
-        "sample_io": "Input: Render component\nOutput: Displays current date time",
-        "language": "react"
-    },
-    {
-        "id": 60,
+        "id": 46,
         "question": "Write a Kotlin function to find the minimum value in a list.",
         "sample_io": "Input: list=[3,1,2]\nOutput: 1",
         "language": "kotlin"
     },
     {
-        "id": 61,
+        "id": 47,
         "question": "Write a JavaScript function to count occurrences of a character in a string.",
         "sample_io": "Input: str=\"hello\", char=\"l\"\nOutput: 2",
         "language": "javascript"
     },
     {
-        "id": 62,
-        "question": "Write a Node.js script to list all files in a directory.",
-        "sample_io": "Input: dir='.'\nOutput: [file1, file2, ...]",
-        "language": "nodejs"
-    },
-    {
-        "id": 63,
+        "id": 47,
         "question": "Write a C program to remove spaces from a string.",
         "sample_io": "Input: str=\"a b c\"\nOutput: abc",
         "language": "c"
     },
     {
-        "id": 64,
+        "id": 48,
         "question": "Write a C++ function to calculate the power of a number.",
         "sample_io": "Input: base=2, exp=3\nOutput: 8",
         "language": "cpp"
     },
     {
-        "id": 65,
+        "id": 49,
         "question": "Write a Python function to count the number of uppercase letters in a string.",
         "sample_io": "Input: str=\"HeLLo\"\nOutput: 3",
         "language": "python"
     },
     {
-        "id": 66,
+        "id": 50,
         "question": "Write a Java method to reverse the words in a sentence.",
         "sample_io": "Input: sentence=\"Hello World\"\nOutput: World Hello",
         "language": "java"
     },
     {
-        "id": 67,
-        "question": "Create a React component for a dropdown menu with given options.",
-        "sample_io": "Input: options=[\"One\", \"Two\"]\nOutput: Dropdown shown",
-        "language": "react"
-    },
-    {
-        "id": 68,
+        "id": 51,
         "question": "Write a JavaScript function to check if two strings are anagrams.",
         "sample_io": "Input: str1=\"listen\", str2=\"silent\"\nOutput: True",
         "language": "javascript"
     },
     {
-        "id": 69,
-        "question": "Write a Node.js script to delete a file named 'old.txt'.",
-        "sample_io": "Input: Run script\nOutput: File deleted",
-        "language": "nodejs"
-    },
-    {
-        "id": 70,
+        "id": 51,
         "question": "Write a C function to convert a string to uppercase.",
         "sample_io": "Input: str=\"abc\"\nOutput: ABC",
         "language": "c"
     },
     {
-        "id": 71,
+        "id": 52,
         "question": "Write a C++ function to remove all occurrences of a given element from a vector.",
         "sample_io": "Input: vec=[1,2,3,2], elem=2\nOutput: [1,3]",
         "language": "cpp"
     },
     {
-        "id": 72,
+        "id": 53,
         "question": "Write a Kotlin function to check if a string is a palindrome.",
         "sample_io": "Input: str=\"level\"\nOutput: True",
         "language": "kotlin"
     },
     {
-        "id": 73,
+        "id": 54,
         "question": "Write a Python function to calculate the average of numbers in a list.",
         "sample_io": "Input: nums=[1,2,3,4]\nOutput: 2.5",
         "language": "python"
     },
     {
-        "id": 74,
+        "id": 55,
         "question": "Write a Java method to count the frequency of characters in a string.",
         "sample_io": "Input: str=\"aab\"\nOutput: {a=2, b=1}",
         "language": "java"
     },
     {
-        "id": 75,
-        "question": "Create a React component to display a progress bar.",
-        "sample_io": "Input: value=50\nOutput: 50% progress bar",
-        "language": "react"
-    },
-    {
-        "id": 76,
+        "id": 56,
         "question": "Write a JavaScript function to get the unique elements from an array.",
         "sample_io": "Input: arr=[1,2,2,3]\nOutput: [1,2,3]",
         "language": "javascript"
     },
     {
-        "id": 77,
-        "question": "Write a Node.js script to append text to a file.",
-        "sample_io": "Input: text='add', file='test.txt'\nOutput: Text appended",
-        "language": "nodejs"
-    },
-    {
-        "id": 78,
+        "id": 57,
         "question": "Write a C program to convert decimal to binary.",
         "sample_io": "Input: n=5\nOutput: 101",
         "language": "c"
     },
     {
-        "id": 79,
+        "id": 58,
         "question": "Write a C++ function to implement binary search.",
         "sample_io": "Input: arr=[1,2,3,4,5], key=3\nOutput: 2",
         "language": "cpp"
     },
     {
-        "id": 80,
+        "id": 59,
         "question": "Write a Python script to check if a list is sorted.",
         "sample_io": "Input: arr=[1,2,3]\nOutput: True",
         "language": "python"
     },
     {
-        "id": 81,
+        "id": 60,
         "question": "Write a Java method to find the sum of digits in a string containing numbers.",
         "sample_io": "Input: str=\"a1b2c3\"\nOutput: 6",
         "language": "java"
     },
     {
-        "id": 82,
-        "question": "Create a React component to display an image from a given URL.",
-        "sample_io": "Input: url=\"/logo.png\"\nOutput: Shows image",
-        "language": "react"
-    },
-    {
-        "id": 83,
+        "id": 61,
         "question": "Write a Kotlin function to remove all whitespace from a string.",
         "sample_io": "Input: str=\"a b c\"\nOutput: abc",
         "language": "kotlin"
     },
     {
-        "id": 84,
+        "id": 62,
         "question": "Write a JavaScript function to repeat a string N times.",
         "sample_io": "Input: str=\"hi\", n=3\nOutput: hihihi",
         "language": "javascript"
     },
     {
-        "id": 85,
-        "question": "Write a Node.js function to get the size of a file.",
-        "sample_io": "Input: file='test.txt'\nOutput: 10 (bytes)",
-        "language": "nodejs"
-    },
-    {
-        "id": 86,
+        "id": 63,
         "question": "Write a C program to print the ASCII value of a character.",
         "sample_io": "Input: ch='A'\nOutput: 65",
         "language": "c"
     },
     {
-        "id": 87,
+        "id": 64,
         "question": "Write a C++ program to convert a string to integer.",
         "sample_io": "Input: str=\"123\"\nOutput: 123",
         "language": "cpp"
     },
     {
-        "id": 88,
+        "id": 65,
         "question": "Write a Python function to zip two lists into a dictionary.",
         "sample_io": "Input: l1=[\"a\",\"b\"], l2=[1,2]\nOutput: {'a':1, 'b':2}",
         "language": "python"
     },
     {
-        "id": 89,
+        "id": 66,
         "question": "Write a Java method to reverse a linked list.",
         "sample_io": "Input: list=1->2->3\nOutput: 3->2->1",
         "language": "java"
     },
     {
-        "id": 90,
-        "question": "Create a React component to display an alert on button click.",
-        "sample_io": "Input: Click button\nOutput: Shows alert",
-        "language": "react"
-    },
-    {
-        "id": 91,
+        "id": 67,
         "question": "Write a JavaScript function to check if a string starts with a given prefix.",
         "sample_io": "Input: str=\"hello\", prefix=\"he\"\nOutput: True",
         "language": "javascript"
     },
     {
-        "id": 92,
-        "question": "Write a Node.js script to get the current working directory.",
-        "sample_io": "Input: Run script\nOutput: /home/user",
-        "language": "nodejs"
-    },
-    {
-        "id": 93,
+        "id": 68,
         "question": "Write a C program to check if a character is a vowel or consonant.",
         "sample_io": "Input: ch='e'\nOutput: Vowel",
         "language": "c"
     },
     {
-        "id": 94,
+        "id": 69,
         "question": "Write a C++ function to compute the sum of all even numbers in an array.",
         "sample_io": "Input: arr=[1,2,3,4]\nOutput: 6",
         "language": "cpp"
     },
     {
-        "id": 95,
+        "id": 70,
         "question": "Write a Kotlin function to reverse a list.",
         "sample_io": "Input: list=[1,2,3]\nOutput: [3,2,1]",
         "language": "kotlin"
     },
     {
-        "id": 96,
+        "id": 71,
         "question": "Write a Python function to convert a list of strings to integers.",
         "sample_io": "Input: arr=[\"1\",\"2\"]\nOutput: [1,2]",
         "language": "python"
     },
     {
-        "id": 97,
+        "id": 72,
         "question": "Write a Java method to remove duplicates from an ArrayList.",
         "sample_io": "Input: list=[1,2,2,3]\nOutput: [1,2,3]",
         "language": "java"
     },
     {
-        "id": 98,
-        "question": "Create a React component to show/hide text on button click.",
-        "sample_io": "Input: Click button\nOutput: Text toggled",
-        "language": "react"
-    },
-    {
-        "id": 99,
+        "id": 73,
         "question": "Write a JavaScript function to find the sum of digits of a number.",
         "sample_io": "Input: n=123\nOutput: 6",
         "language": "javascript"
     },
     {
+        "id": 74,
+        "question": "Write an SQL query to select all columns from a table named 'students'.",
+        "sample_io": "Input: students table\nOutput: all columns from students",
+        "language": "mysql"
+    },
+    {
+        "id": 75,
+        "question": "Write an SQL query to count the number of rows in a table named 'employees'.",
+        "sample_io": "Input: employees table\nOutput: number of rows",
+        "language": "mysql"
+    },
+    {
+        "id": 76,
+        "question": "Write an SQL query to find the maximum salary from a table named 'salaries'.",
+        "sample_io": "Input: salaries table\nOutput: highest salary value",
+        "language": "mysql"
+    },
+    {
+        "id": 77,
+        "question": "Write an SQL query to select unique department names from a table named 'departments'.",
+        "sample_io": "Input: departments table\nOutput: unique department names",
+        "language": "mysql"
+    },
+    {
+        "id": 78,
+        "question": "Write an SQL query to retrieve all employees whose name starts with 'A' from a table named 'employees'.",
+        "sample_io": "Input: employees table\nOutput: employees with names starting with 'A'",
+        "language": "mysql"
+    },
+    {
+        "id": 79,
+        "question": "Write a C++ function to print numbers from 1 to N.",
+        "sample_io": "Input: N=5\nOutput: 1 2 3 4 5",
+        "language": "cpp"
+    },
+    {
+        "id": 80,
+        "question": "Write a Python function to print 'Hello, World!'",
+        "sample_io": "Input: None\nOutput: Hello, World!",
+        "language": "python"
+    },
+    {
+        "id": 81,
+        "question": "Write a Java program to print your name.",
+        "sample_io": "Input: None\nOutput: Your Name",
+        "language": "java"
+    },
+    {
+        "id": 82,
+        "question": "Write a C function to add two numbers.",
+        "sample_io": "Input: a=3, b=4\nOutput: 7",
+        "language": "c"
+    },
+    {
+        "id": 83,
+        "question": "Write a JavaScript function to return the square of a number.",
+        "sample_io": "Input: n=6\nOutput: 36",
+        "language": "javascript"
+    },
+    {
+        "id": 84,
+        "question": "Write a Kotlin function to return the length of a string.",
+        "sample_io": "Input: str=\"hello\"\nOutput: 5",
+        "language": "kotlin"
+    },
+    {
+        "id": 85,
+        "question": "Write an SQL query to select all rows from a table named 'books'.",
+        "sample_io": "Input: books table\nOutput: all rows from books",
+        "language": "mysql"
+    },
+    {
+        "id": 86,
+        "question": "Write a C++ function to sum elements of an integer array.",
+        "sample_io": "Input: arr=[1,2,3]\nOutput: 6",
+        "language": "cpp"
+    },
+    {
+        "id": 87,
+        "question": "Write a Python function to check if a number is positive, negative, or zero.",
+        "sample_io": "Input: n=-5\nOutput: Negative",
+        "language": "python"
+    },
+    {
+        "id": 88,
+        "question": "Write a Java program to print numbers from N down to 1.",
+        "sample_io": "Input: N=3\nOutput: 3 2 1",
+        "language": "java"
+    },
+    {
+        "id": 89,
+        "question": "Write a C function to calculate the area of a rectangle given length and width.",
+        "sample_io": "Input: length=4, width=5\nOutput: 20",
+        "language": "c"
+    },
+    {
+        "id": 90,
+        "question": "Write a JavaScript function that returns the first character of a string.",
+        "sample_io": "Input: str=\"world\"\nOutput: w",
+        "language": "javascript"
+    },
+    {
+        "id": 91,
+        "question": "Write a Kotlin function that checks if an integer is even.",
+        "sample_io": "Input: n=8\nOutput: True",
+        "language": "kotlin"
+    },
+    {
+        "id": 92,
+        "question": "Write an SQL query to get the name of all students from a table named 'students'.",
+        "sample_io": "Input: students table\nOutput: all names from students",
+        "language": "mysql"
+    },
+    {
+        "id": 93,
+        "question": "Write a C++ function to reverse a string.",
+        "sample_io": "Input: str=\"abc\"\nOutput: cba",
+        "language": "cpp"
+    },
+    {
+        "id": 94,
+        "question": "Write a Python function to find the maximum of two numbers.",
+        "sample_io": "Input: a=9, b=4\nOutput: 9",
+        "language": "python"
+    },
+    {
+        "id": 95,
+        "question": "Write a Java program to print the multiplication table of a given number.",
+        "sample_io": "Input: n=2\nOutput: 2 4 6 8 10 12 14 16 18 20",
+        "language": "java"
+    },
+    {
+        "id": 96,
+        "question": "Write a C function to print the ASCII value of a character.",
+        "sample_io": "Input: ch='A'\nOutput: 65",
+        "language": "c"
+    },
+    {
+        "id": 97,
+        "question": "Write a JavaScript function to return the last element of an array.",
+        "sample_io": "Input: arr=[1,2,3]\nOutput: 3",
+        "language": "javascript"
+    },
+    {
+        "id": 98,
+        "question": "Write a Kotlin function to concatenate two strings.",
+        "sample_io": "Input: a=\"foo\", b=\"bar\"\nOutput: foobar",
+        "language": "kotlin"
+    },
+    {
+        "id": 99,
+        "question": "Write an SQL query to count the number of books in a table 'books'.",
+        "sample_io": "Input: books table\nOutput: number of books",
+        "language": "mysql"
+    },
+    {
         "id": 100,
-        "question": "Write a Node.js function to generate a random integer between min and max.",
-        "sample_io": "Input: min=1, max=10\nOutput: 7",
-        "language": "nodejs"
+        "question": "Write a C++ function to check if a given character is a vowel.",
+        "sample_io": "Input: ch='e'\nOutput: True",
+        "language": "cpp"
+    },
+    {
+        "id": 101,
+        "question": "Write a Python function to print each element of a list on a new line.",
+        "sample_io": "Input: lst=[1,2,3]\nOutput:\n1\n2\n3",
+        "language": "python"
+    },
+    {
+        "id": 102,
+        "question": "Write a Java program to add two integers.",
+        "sample_io": "Input: a=7, b=12\nOutput: 19",
+        "language": "java"
+    },
+    {
+        "id": 103,
+        "question": "Write a C function to swap two numbers.",
+        "sample_io": "Input: a=2, b=5\nOutput: a=5, b=2",
+        "language": "c"
+    },
+    {
+        "id": 104,
+        "question": "Write a JavaScript function to return the length of an array.",
+        "sample_io": "Input: arr=[4,5,6]\nOutput: 3",
+        "language": "javascript"
+    },
+    {
+        "id": 105,
+        "question": "Write a Kotlin function to return the sum of the first N natural numbers.",
+        "sample_io": "Input: n=3\nOutput: 6",
+        "language": "kotlin"
+    },
+    {
+        "id": 106,
+        "question": "Write an SQL query to select all columns from a table called 'departments'.",
+        "sample_io": "Input: departments table\nOutput: all columns from departments",
+        "language": "mysql"
+    },
+    {
+        "id": 107,
+        "question": "Write a C++ function to add three numbers.",
+        "sample_io": "Input: a=1, b=2, c=3\nOutput: 6",
+        "language": "cpp"
+    },
+    {
+        "id": 108,
+        "question": "Write a Python function that returns the minimum of two numbers.",
+        "sample_io": "Input: a=7, b=5\nOutput: 5",
+        "language": "python"
+    },
+    {
+        "id": 109,
+        "question": "Write a Java program to print 'Java is fun!'",
+        "sample_io": "Input: None\nOutput: Java is fun!",
+        "language": "java"
+    },
+    {
+        "id": 110,
+        "question": "Write a C program to subtract one number from another.",
+        "sample_io": "Input: a=9, b=4\nOutput: 5",
+        "language": "c"
+    },
+    {
+        "id": 111,
+        "question": "Write a JavaScript function to multiply two numbers.",
+        "sample_io": "Input: a=3, b=7\nOutput: 21",
+        "language": "javascript"
+    },
+    {
+        "id": 112,
+        "question": "Write a Kotlin function to print 'Kotlin Rocks!'",
+        "sample_io": "Input: None\nOutput: Kotlin Rocks!",
+        "language": "kotlin"
+    },
+    {
+        "id": 113,
+        "question": "Write an SQL query to select the first 5 rows from a table named 'cities'.",
+        "sample_io": "Input: cities table\nOutput: first 5 rows from cities",
+        "language": "mysql"
+    },
+    {
+        "id": 114,
+        "question": "Write a C++ function to find the average of two numbers.",
+        "sample_io": "Input: a=4, b=8\nOutput: 6",
+        "language": "cpp"
+    },
+    {
+        "id": 115,
+        "question": "Write a Python function to print numbers from 5 to 1 in reverse order.",
+        "sample_io": "Input: None\nOutput: 5 4 3 2 1",
+        "language": "python"
+    },
+    {
+        "id": 116,
+        "question": "Write a Java program to check if a number is less than 10.",
+        "sample_io": "Input: n=7\nOutput: True",
+        "language": "java"
+    },
+    {
+        "id": 117,
+        "question": "Write a C program to multiply three numbers.",
+        "sample_io": "Input: a=2, b=3, c=4\nOutput: 24",
+        "language": "c"
+    },
+    {
+        "id": 118,
+        "question": "Write a JavaScript function to return the type of a variable.",
+        "sample_io": "Input: val=5\nOutput: number",
+        "language": "javascript"
+    },
+    {
+        "id": 119,
+        "question": "Write a Kotlin function that returns the maximum of three numbers.",
+        "sample_io": "Input: a=5, b=9, c=2\nOutput: 9",
+        "language": "kotlin"
+    },
+    {
+        "id": 120,
+        "question": "Write an SQL query to rename the column 'old_name' to 'new_name' in the table 'test'.",
+        "sample_io": "Input: test table\nOutput: column renamed",
+        "language": "mysql"
+    },
+    {
+        "id": 120,
+        "question": "Write an SQL query to select all records from a table named 'products'.",
+        "sample_io": "Input: products table\nOutput: all records from products",
+        "language": "mysql"
+    },
+    {
+        "id": 121,
+        "question": "Write a Python function to return the difference between two numbers.",
+        "sample_io": "Input: a=9, b=4\nOutput: 5",
+        "language": "python"
+    },
+    {
+        "id": 122,
+        "question": "Write a Java function to check if a number is zero.",
+        "sample_io": "Input: n=0\nOutput: True",
+        "language": "java"
+    },
+    {
+        "id": 123,
+        "question": "Write a C program to print the square of a number.",
+        "sample_io": "Input: n=8\nOutput: 64",
+        "language": "c"
+    },
+    {
+        "id": 124,
+        "question": "Write a JavaScript function to check if an array is empty.",
+        "sample_io": "Input: arr=[]\nOutput: True",
+        "language": "javascript"
+    },
+    {
+        "id": 125,
+        "question": "Write a Kotlin function to multiply two numbers.",
+        "sample_io": "Input: a=5, b=7\nOutput: 35",
+        "language": "kotlin"
+    },
+    {
+        "id": 126,
+        "question": "Write a C++ function to print 'Hello C++!' five times.",
+        "sample_io": "Input: None\nOutput: Hello C++! (5 times)",
+        "language": "cpp"
+    },
+    {
+        "id": 127,
+        "question": "Write an SQL query to count the number of rows in a table called 'orders'.",
+        "sample_io": "Input: orders table\nOutput: number of rows",
+        "language": "mysql"
+    },
+    {
+        "id": 128,
+        "question": "Write a Python function to return the absolute value of a number.",
+        "sample_io": "Input: n=-15\nOutput: 15",
+        "language": "python"
+    },
+    {
+        "id": 129,
+        "question": "Write a Java method to print odd numbers from 1 to N.",
+        "sample_io": "Input: N=7\nOutput: 1 3 5 7",
+        "language": "java"
+    },
+    {
+        "id": 130,
+        "question": "Write a C function to compare two integers and print the larger one.",
+        "sample_io": "Input: a=12, b=18\nOutput: 18",
+        "language": "c"
+    },
+    {
+        "id": 131,
+        "question": "Write a JavaScript function to return the first element of an array.",
+        "sample_io": "Input: arr=[10,20,30]\nOutput: 10",
+        "language": "javascript"
+    },
+    {
+        "id": 132,
+        "question": "Write a Kotlin function to calculate the cube of a number.",
+        "sample_io": "Input: n=3\nOutput: 27",
+        "language": "kotlin"
+    },
+    {
+        "id": 133,
+        "question": "Write a C++ function to print the reverse of an integer.",
+        "sample_io": "Input: n=321\nOutput: 123",
+        "language": "cpp"
+    },
+    {
+        "id": 134,
+        "question": "Write an SQL query to list all unique cities from a table named 'customers'.",
+        "sample_io": "Input: customers table\nOutput: unique cities",
+        "language": "mysql"
+    },
+    {
+        "id": 135,
+        "question": "Write a Python function to convert Celsius to Kelvin.",
+        "sample_io": "Input: c=25\nOutput: 298.15",
+        "language": "python"
+    },
+    {
+        "id": 136,
+        "question": "Write a Java method to print the sum of the first 10 natural numbers.",
+        "sample_io": "Input: None\nOutput: 55",
+        "language": "java"
+    },
+    {
+        "id": 137,
+        "question": "Write a C program to print the length of a string.",
+        "sample_io": "Input: str=\"hello\"\nOutput: 5",
+        "language": "c"
+    },
+    {
+        "id": 138,
+        "question": "Write a JavaScript function to join two arrays.",
+        "sample_io": "Input: arr1=[1,2], arr2=[3,4]\nOutput: [1,2,3,4]",
+        "language": "javascript"
+    },
+    {
+        "id": 139,
+        "question": "Write a Kotlin function to convert a string to uppercase.",
+        "sample_io": "Input: str=\"abc\"\nOutput: ABC",
+        "language": "kotlin"
+    },
+    {
+        "id": 140,
+        "question": "Write a C++ function to calculate the factorial of a number using a loop.",
+        "sample_io": "Input: n=4\nOutput: 24",
+        "language": "cpp"
+    },
+    {
+        "id": 141,
+        "question": "Write an SQL query to select all students whose age is 18 from 'students'.",
+        "sample_io": "Input: students table\nOutput: students with age 18",
+        "language": "mysql"
+    },
+    {
+        "id": 142,
+        "question": "Write a Python function to repeat a string n times.",
+        "sample_io": "Input: s=\"hi\", n=3\nOutput: hihihi",
+        "language": "python"
+    },
+    {
+        "id": 143,
+        "question": "Write a Java method to find the smallest element in an integer array.",
+        "sample_io": "Input: arr=[5,2,8]\nOutput: 2",
+        "language": "java"
+    },
+    {
+        "id": 144,
+        "question": "Write a C function to print even numbers between 1 and 10.",
+        "sample_io": "Input: None\nOutput: 2 4 6 8 10",
+        "language": "c"
+    },
+    {
+        "id": 145,
+        "question": "Write a JavaScript function to check if a number is positive.",
+        "sample_io": "Input: n=10\nOutput: True",
+        "language": "javascript"
+    },
+    {
+        "id": 146,
+        "question": "Write a Kotlin function to return the last character of a string.",
+        "sample_io": "Input: str=\"test\"\nOutput: t",
+        "language": "kotlin"
+    },
+    {
+        "id": 147,
+        "question": "Write a C++ function to count the digits in a given number.",
+        "sample_io": "Input: n=1234\nOutput: 4",
+        "language": "cpp"
+    },
+    {
+        "id": 148,
+        "question": "Write an SQL query to find the average salary from 'employees'.",
+        "sample_io": "Input: employees table\nOutput: average salary",
+        "language": "mysql"
+    },
+    {
+        "id": 149,
+        "question": "Write a Python function to return the remainder of two numbers.",
+        "sample_io": "Input: a=10, b=3\nOutput: 1",
+        "language": "python"
+    },
+    {
+        "id": 150,
+        "question": "Write a Java method to convert a character to its ASCII value.",
+        "sample_io": "Input: ch='A'\nOutput: 65",
+        "language": "java"
+    },
+    {
+        "id": 151,
+        "question": "Write a C program to check if a character is uppercase.",
+        "sample_io": "Input: ch='G'\nOutput: True",
+        "language": "c"
+    },
+    {
+        "id": 152,
+        "question": "Write a JavaScript function to find the maximum in an array.",
+        "sample_io": "Input: arr=[1,5,2]\nOutput: 5",
+        "language": "javascript"
+    },
+    {
+        "id": 153,
+        "question": "Write a Kotlin function to check if a string contains a substring.",
+        "sample_io": "Input: str=\"hello\", sub=\"ll\"\nOutput: True",
+        "language": "kotlin"
+    },
+    {
+        "id": 154,
+        "question": "Write a C++ function to swap two strings.",
+        "sample_io": "Input: a=\"foo\", b=\"bar\"\nOutput: a=bar, b=foo",
+        "language": "cpp"
+    },
+    {
+        "id": 155,
+        "question": "Write an SQL query to find the number of departments in 'departments'.",
+        "sample_io": "Input: departments table\nOutput: count of departments",
+        "language": "mysql"
+    },
+    {
+        "id": 156,
+        "question": "Write a Python function to return the square root of a number.",
+        "sample_io": "Input: n=25\nOutput: 5.0",
+        "language": "python"
+    },
+    {
+        "id": 157,
+        "question": "Write a Java method to print the first 5 multiples of a number.",
+        "sample_io": "Input: n=4\nOutput: 4 8 12 16 20",
+        "language": "java"
+    },
+    {
+        "id": 158,
+        "question": "Write a C function to check if a number is divisible by 5.",
+        "sample_io": "Input: n=20\nOutput: True",
+        "language": "c"
+    },
+    {
+        "id": 159,
+        "question": "Write a JavaScript function to reverse the order of elements in an array.",
+        "sample_io": "Input: arr=[1,2,3]\nOutput: [3,2,1]",
+        "language": "javascript"
+    },
+    {
+        "id": 160,
+        "question": "Write a Kotlin function to check if a character is a vowel.",
+        "sample_io": "Input: ch='i'\nOutput: True",
+        "language": "kotlin"
+    },
+    {
+        "id": 161,
+        "question": "Write a C++ function to print the ASCII value of each character in a string.",
+        "sample_io": "Input: str=\"Hi\"\nOutput: 72 105",
+        "language": "cpp"
+    },
+    {
+        "id": 162,
+        "question": "Write an SQL query to select only the 'email' column from 'users'.",
+        "sample_io": "Input: users table\nOutput: all emails",
+        "language": "mysql"
+    },
+    {
+        "id": 163,
+        "question": "Write a Python function to return the sum of even numbers in a list.",
+        "sample_io": "Input: lst=[1,2,3,4]\nOutput: 6",
+        "language": "python"
+    },
+    {
+        "id": 164,
+        "question": "Write a Java method to convert a string to lowercase.",
+        "sample_io": "Input: str=\"JAVA\"\nOutput: java",
+        "language": "java"
+    },
+    {
+        "id": 165,
+        "question": "Write a C program to print all alphabets from A to Z.",
+        "sample_io": "Input: None\nOutput: ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+        "language": "c"
+    },
+    {
+        "id": 166,
+        "question": "Write a JavaScript function to check if a string is empty.",
+        "sample_io": "Input: str=\"\"\nOutput: True",
+        "language": "javascript"
+    },
+    {
+        "id": 167,
+        "question": "Write a Kotlin function to get the first word in a sentence.",
+        "sample_io": "Input: str=\"Hello world\"\nOutput: Hello",
+        "language": "kotlin"
+    },
+    {
+        "id": 168,
+        "question": "Write a C++ function to count vowels in a string.",
+        "sample_io": "Input: str=\"apple\"\nOutput: 2",
+        "language": "cpp"
+    },
+    {
+        "id": 169,
+        "question": "Write an SQL query to get all employees with 'Manager' in their title from 'employees'.",
+        "sample_io": "Input: employees table\nOutput: all managers",
+        "language": "mysql"
+    },
+    {
+        "id": 170,
+        "question": "Write a Python function to check if a list is empty.",
+        "sample_io": "Input: lst=[]\nOutput: True",
+        "language": "python"
+    },
+    {
+        "id": 171,
+        "question": "Write a Java method to print the first character of a string.",
+        "sample_io": "Input: str=\"Test\"\nOutput: T",
+        "language": "java"
+    },
+    {
+        "id": 172,
+        "question": "Write a C program to print all even numbers from 1 to 20.",
+        "sample_io": "Input: None\nOutput: 2 4 6 8 10 12 14 16 18 20",
+        "language": "c"
+    },
+    {
+        "id": 173,
+        "question": "Write a JavaScript function to return the index of a value in an array.",
+        "sample_io": "Input: arr=[4,5,6], val=5\nOutput: 1",
+        "language": "javascript"
+    },
+    {
+        "id": 174,
+        "question": "Write a Kotlin function to remove the first character from a string.",
+        "sample_io": "Input: str=\"apple\"\nOutput: pple",
+        "language": "kotlin"
+    },
+    {
+        "id": 175,
+        "question": "Write a C++ function to check if an integer is negative.",
+        "sample_io": "Input: n=-7\nOutput: True",
+        "language": "cpp"
+    },
+    {
+        "id": 176,
+        "question": "Write an SQL query to order the 'students' table by 'name' ascending.",
+        "sample_io": "Input: students table\nOutput: students ordered by name",
+        "language": "mysql"
+    },
+    {
+        "id": 177,
+        "question": "Write a Python function to count the number of spaces in a string.",
+        "sample_io": "Input: s=\"a b c\"\nOutput: 2",
+        "language": "python"
+    },
+    {
+        "id": 178,
+        "question": "Write a Java method to print a string N times.",
+        "sample_io": "Input: str=\"Go\", N=3\nOutput: GoGoGo",
+        "language": "java"
+    },
+    {
+        "id": 179,
+        "question": "Write a C function to print the first 10 natural numbers.",
+        "sample_io": "Input: None\nOutput: 1 2 3 4 5 6 7 8 9 10",
+        "language": "c"
+    },
+    {
+        "id": 180,
+        "question": "Write a JavaScript function to check if a number is divisible by 3.",
+        "sample_io": "Input: n=9\nOutput: True",
+        "language": "javascript"
+    },
+    {
+        "id": 181,
+        "question": "Write a Kotlin function to find the minimum of two numbers.",
+        "sample_io": "Input: a=4, b=2\nOutput: 2",
+        "language": "kotlin"
+    },
+    {
+        "id": 182,
+        "question": "Write a C++ function to add an element to the end of a vector.",
+        "sample_io": "Input: vec=[1,2], val=3\nOutput: [1,2,3]",
+        "language": "cpp"
+    },
+    {
+        "id": 183,
+        "question": "Write an SQL query to select all products with a price greater than 100.",
+        "sample_io": "Input: products table\nOutput: products with price > 100",
+        "language": "mysql"
+    },
+    {
+        "id": 184,
+        "question": "Write a Python function to return the length of a list.",
+        "sample_io": "Input: lst=[1,2,3,4]\nOutput: 4",
+        "language": "python"
+    },
+    {
+        "id": 185,
+        "question": "Write a Java method to return the last element of an array.",
+        "sample_io": "Input: arr=[5,6,7]\nOutput: 7",
+        "language": "java"
+    },
+    {
+        "id": 186,
+        "question": "Write a C function to print the sum of all odd numbers from 1 to 10.",
+        "sample_io": "Input: None\nOutput: 25",
+        "language": "c"
+    },
+    {
+        "id": 187,
+        "question": "Write a JavaScript function to double all elements in an array.",
+        "sample_io": "Input: arr=[1,2,3]\nOutput: [2,4,6]",
+        "language": "javascript"
+    },
+    {
+        "id": 188,
+        "question": "Write a Kotlin function to check if a number is greater than 10.",
+        "sample_io": "Input: n=15\nOutput: True",
+        "language": "kotlin"
+    },
+    {
+        "id": 189,
+        "question": "Write a C++ function to print the first character of a string.",
+        "sample_io": "Input: str=\"hello\"\nOutput: h",
+        "language": "cpp"
+    },
+    {
+        "id": 190,
+        "question": "Write an SQL query to select all customers from 'customers' with 'USA' as country.",
+        "sample_io": "Input: customers table\nOutput: customers from USA",
+        "language": "mysql"
+    },
+    {
+        "id": 191,
+        "question": "Write a Python function to check if a number is odd.",
+        "sample_io": "Input: n=9\nOutput: True",
+        "language": "python"
+    },
+    {
+        "id": 192,
+        "question": "Write a Java method to print the length of a string.",
+        "sample_io": "Input: str=\"abcd\"\nOutput: 4",
+        "language": "java"
+    },
+    {
+        "id": 193,
+        "question": "Write a C program to print the sum of two numbers using a function.",
+        "sample_io": "Input: a=1, b=2\nOutput: 3",
+        "language": "c"
+    },
+    {
+        "id": 194,
+        "question": "Write a JavaScript function to check if a string contains only digits.",
+        "sample_io": "Input: str=\"1234\"\nOutput: True",
+        "language": "javascript"
+    },
+    {
+        "id": 195,
+        "question": "Write a Kotlin function to check if a string is empty.",
+        "sample_io": "Input: str=\"\"\nOutput: True",
+        "language": "kotlin"
+    },
+    {
+        "id": 196,
+        "question": "Write a C++ function to print numbers from N to 1.",
+        "sample_io": "Input: N=3\nOutput: 3 2 1",
+        "language": "cpp"
+    },
+    {
+        "id": 197,
+        "question": "Write an SQL query to delete all records from a table named 'logs'.",
+        "sample_io": "Input: logs table\nOutput: all records deleted",
+        "language": "mysql"
+    },
+    {
+        "id": 198,
+        "question": "Write a Python function to print the elements of a tuple.",
+        "sample_io": "Input: t=(1,2,3)\nOutput: 1 2 3",
+        "language": "python"
+    },
+    {
+        "id": 199,
+        "question": "Write a Java method to print all uppercase letters from 'A' to 'Z'.",
+        "sample_io": "Input: None\nOutput: ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+        "language": "java"
+    },
+    {
+        "id": 200,
+        "question": "Write a C function to return the maximum of three numbers.",
+        "sample_io": "Input: a=1, b=5, c=3\nOutput: 5",
+        "language": "c"
+    },
+    {
+        "id": 201,
+        "question": "Write a JavaScript function to return the smallest element in an array.",
+        "sample_io": "Input: arr=[7,2,9]\nOutput: 2",
+        "language": "javascript"
+    },
+    {
+        "id": 202,
+        "question": "Write a Kotlin function to calculate the product of all numbers in a list.",
+        "sample_io": "Input: list=[2,3,4]\nOutput: 24",
+        "language": "kotlin"
+    },
+    {
+        "id": 203,
+        "question": "Write a C++ function to print all even numbers from 1 to 10.",
+        "sample_io": "Input: None\nOutput: 2 4 6 8 10",
+        "language": "cpp"
+    },
+    {
+        "id": 204,
+        "question": "Write an SQL query to find the maximum price from a table 'items'.",
+        "sample_io": "Input: items table\nOutput: max price",
+        "language": "mysql"
+    },
+    {
+        "id": 205,
+        "question": "Write a Python function to print the keys of a dictionary.",
+        "sample_io": "Input: d={'a':1, 'b':2}\nOutput: a b",
+        "language": "python"
+    },
+    {
+        "id": 206,
+        "question": "Write a Java method to print all vowels in a string.",
+        "sample_io": "Input: str=\"hello\"\nOutput: e o",
+        "language": "java"
+    },
+    {
+        "id": 207,
+        "question": "Write a C program to swap the values of two variables.",
+        "sample_io": "Input: a=10, b=20\nOutput: a=20, b=10",
+        "language": "c"
+    },
+    {
+        "id": 208,
+        "question": "Write a JavaScript function to convert a string to lowercase.",
+        "sample_io": "Input: str=\"HELLO\"\nOutput: hello",
+        "language": "javascript"
+    },
+    {
+        "id": 209,
+        "question": "Write a Kotlin function to return the second element of a list.",
+        "sample_io": "Input: list=[10,20,30]\nOutput: 20",
+        "language": "kotlin"
+    },
+    {
+        "id": 210,
+        "question": "Write a C++ function to check if a string contains a digit.",
+        "sample_io": "Input: str=\"abc1\"\nOutput: True",
+        "language": "cpp"
+    },
+    {
+        "id": 211,
+        "question": "Write an SQL query to update the salary of all employees in 'employees' to 5000.",
+        "sample_io": "Input: employees table\nOutput: salary updated",
+        "language": "mysql"
+    },
+    {
+        "id": 212,
+        "question": "Write a Python function to check if a string starts with 'A'.",
+        "sample_io": "Input: s=\"Apple\"\nOutput: True",
+        "language": "python"
+    },
+    {
+        "id": 213,
+        "question": "Write a Java method to print the reverse of a string.",
+        "sample_io": "Input: str=\"dog\"\nOutput: god",
+        "language": "java"
+    },
+    {
+        "id": 214,
+        "question": "Write a C function to print all numbers from 1 to 5.",
+        "sample_io": "Input: None\nOutput: 1 2 3 4 5",
+        "language": "c"
+    },
+    {
+        "id": 215,
+        "question": "Write a JavaScript function to check if a number is between 5 and 10.",
+        "sample_io": "Input: n=7\nOutput: True",
+        "language": "javascript"
+    },
+    {
+        "id": 216,
+        "question": "Write a Kotlin function to return the sum of the squares of two numbers.",
+        "sample_io": "Input: a=3, b=4\nOutput: 25",
+        "language": "kotlin"
+    },
+    {
+        "id": 217,
+        "question": "Write a C++ function to print the largest of three numbers.",
+        "sample_io": "Input: a=8, b=2, c=5\nOutput: 8",
+        "language": "cpp"
+    },
+    {
+        "id": 218,
+        "question": "Write an SQL query to select all products with a quantity less than 50.",
+        "sample_io": "Input: products table\nOutput: products with quantity < 50",
+        "language": "mysql"
+    },
+    {
+        "id": 219,
+        "question": "Write a Python function to print the first character of each word in a sentence.",
+        "sample_io": "Input: s=\"hello world\"\nOutput: h w",
+        "language": "python"
     }
 ]
